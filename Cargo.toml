@@ -1,0 +1,13 @@
+[package]
+name = "simple-mermaid"
+description = "Simple Mermaid diagrams RustDoc integration"
+version = "0.1.0"
+edition = "2021"
+homepage = "https://github.com/glueball/simple-mermaid"
+repository = "https://github.com/glueball/simple-mermaid"
+keywords = ["documentation", "mermaid", "diagrams"]
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
