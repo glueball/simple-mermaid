@@ -88,6 +88,8 @@
 //! [rsdoc]: https://crates.io/crates/rsdoc
 //! [PlantUML]: https://plantuml.com/
 
+#![no_std]
+
 /// Include a mermaid diagram in the documentation.
 ///
 /// This macro is meant to be used as argument of the `#[doc]` attribute.
