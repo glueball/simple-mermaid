@@ -30,6 +30,16 @@ It can be used with code-blocks (similar to aquamarine) or with external files (
 So, in this case, for me it was just a matter of personal taste, both [PlantUML] and [mermaid] are fantastic
 opensource projects. But PlantUML is Java... and my plants always die (_even a cactus I once had! How can a cactus die? The thing should not need water!_).
 
+# Mermaid compatibility
+
+The 0.1.x versions of this crate use mermaid v10.
+
+The 0.2.x versions use mermaid v11.
+
+Since updating mermaid might be a breaking change,
+any updates in the major version of mermaid
+used in this crate will always result in a bump in the first non-zero version digit. 
+
 # Disclaimer
 Neither this crate nor it's autor have any relation or affiliation with the [mermaid] project, other that being an user of this magnific library.
 
