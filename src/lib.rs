@@ -134,7 +134,7 @@ macro_rules! _mermaid_inner {
                     include_str!($file), "\n",
                 "</pre>",
                 "<script type=\"module\">",
-                    "import mermaid from \"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs\";",
+                    "import mermaid from \"https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs\";",
                     "var doc_theme = localStorage.getItem(\"rustdoc-theme\");",
                     "if (doc_theme === \"dark\" || doc_theme === \"ayu\") mermaid.initialize({theme: \"dark\"});",
                 "</script>")
